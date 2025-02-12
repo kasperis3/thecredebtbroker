@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: orange;
 }
 
 h1 {
@@ -65,4 +66,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+p {
+  color: #535bf2;
+  font-weight: 250;
+  font-size: x-large;
 }
