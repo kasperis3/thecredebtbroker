@@ -10,7 +10,7 @@ function App() {
         <a href="#" className="inline-block">
           <img
             src={commloan_logo}
-            className="w-48 md:w-64 rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
+            className="w-32 md:w-32 rounded-lg shadow-xl transition-transform duration-300 hover:scale-105"
             alt="CommLoan logo"
           />
         </a>
@@ -22,8 +22,8 @@ function App() {
           Get the Best Commercial Loan—Faster & Smarter.
         </h1>
         <p className="text-lg text-gray-700 font-medium">
-          I’m <span className="font-bold">Kushaal</span>, a commercial mortgage
-          expert with a
+          My name is <span className="font-bold">Kushaal</span>, a Commercial
+          Mortgage expert with a
           <span className="font-semibold">
             {" "}
             UC Berkeley mathematics background
@@ -51,9 +51,9 @@ function App() {
           <span className="font-bold text-gray-900">
             real-time lender data{" "}
           </span>
-          to secure{" "}
+          to negotiate{" "}
           <span className="font-bold text-green-700">
-            the lowest rates & best terms—fast
+            the lowest rates & best terms for your deal—fast
           </span>
           .
         </p>
