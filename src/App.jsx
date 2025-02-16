@@ -21,21 +21,19 @@ function App() {
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
           Get the Best Commercial Loan—Faster & Smarter.
         </h1>
-        <p className="text-lg text-gray-700 font-medium">
-          My name is <span className="font-bold">Kushaal</span>, a Commercial
-          Mortgage expert with a
-          <span className="font-semibold">
-            {" "}
-            UC Berkeley mathematics background
-          </span>{" "}
-          and real-world
-          <span className="font-semibold"> CRE investment experience</span>. I
-          don’t only broker loans—I{" "}
-          <span className="font-bold text-gray-900">
-            engineer the best financing solutions
-          </span>{" "}
-          tailored to your investment goals.
-        </p>
+        <div className="flex justify-center items-center text-center">
+          <p className="text-lg text-gray-700 font-medium max-w-3xl">
+            Hi, I’m <span className="font-bold">Kushaal</span>—a Commercial
+            Mortgage expert with a
+            <span className="font-semibold">UC Berkeley math background</span>{" "}
+            and real-world
+            <span className="font-semibold">CRE investment experience</span>. I
+            don’t only broker loans; I bring the best financing options to the
+            table. Through my partnerships with
+            <span className="font-bold">100s of lenders</span>, I negotiate and
+            create tailored solutions that align with your investment goals.
+          </p>
+        </div>
 
         <div className="border-t border-gray-300 my-6"></div>
 
