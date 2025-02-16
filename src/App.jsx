@@ -28,10 +28,13 @@ function App() {
               I'm a Commercial Mortgage expert with a
               <span className="font-semibold">
                 {" "}
-                degree in Mathematics from UC Berkeley
+                degree in Mathematics from UC Berkeley and
               </span>{" "}
-              and real-world
-              <span className="font-semibold"> CRE investment experience</span>,
+              real-world
+              <span className="font-semibold">
+                {" "}
+                CRE investment experience,
+              </span>{" "}
               giving me the analytical edge to structure smarter, more efficient
               financing solutions.
             </span>
@@ -51,14 +54,17 @@ function App() {
             only lender-neutral platform
           </span>{" "}
           where
-          <span className="font-bold text-gray-900"> 750+ lenders</span> compete
-          for your deal. We use{" "}
+          <span className="font-bold text-gray-900">
+            {" "}
+            750+ lenders compete{" "}
+          </span>
+          for your deal. We leverage{" "}
           <span className="font-bold text-gray-900">
             real-time lender data{" "}
           </span>
-          to negotiate{" "}
+          to efficiently secure{" "}
           <span className="font-bold text-green-700">
-            the lowest rates & best terms for your deal—efficiently
+            the best rates & best terms for your deal
           </span>
           .
         </p>
@@ -73,6 +79,15 @@ function App() {
             size="large"
             className="px-6 py-3 bg-green-600 text-white font-semibold rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:bg-green-700 focus:ring focus:ring-green-300"
           />
+        </div>
+
+        <div className="mt-8 p-4 border border-gray-300 bg-gray-50 rounded-lg">
+          <p className="text-sm text-gray-600 font-semibold">
+            LICENSING INFORMATION
+          </p>
+          <p className="mt-2 text-sm text-gray-600">
+            NMLS -1597276 | Licensing - Arizona: 0943012; California: 02048126
+          </p>
         </div>
       </main>
     </div>
