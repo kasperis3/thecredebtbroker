@@ -23,11 +23,18 @@ function App() {
         </h1>
         <div className="flex justify-center items-center text-center">
           <p className="text-lg text-gray-700 font-medium max-w-3xl text-justify">
-            Hi, my name is <span className="font-bold">Kushaal</span>. I'm a
-            Commercial Mortgage expert with a
-            <span className="font-semibold"> UC Berkeley math background</span>{" "}
-            and real-world
-            <span className="font-semibold"> CRE investment experience</span>.
+            Hi 👋, my name is <span className="font-bold">Kushaal.</span>
+            <span className="block mt-4">
+              I'm a Commercial Mortgage expert with a
+              <span className="font-semibold">
+                {" "}
+                degree in Mathematics from UC Berkeley
+              </span>{" "}
+              and real-world
+              <span className="font-semibold"> CRE investment experience</span>,
+              giving me the analytical edge to structure smarter, more efficient
+              financing solutions.
+            </span>
             <span className="block mt-4"></span>I specialize in bringing the
             best financing options to the table. Through my partnerships with
             <span className="font-bold"> 100s of lenders</span>, I negotiate and
