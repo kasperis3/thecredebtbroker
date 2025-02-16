@@ -27,7 +27,7 @@ function App() {
           <p className="text-lg text-gray-700 font-medium max-w-3xl text-justify">
             Hi 👋, my name is <span className="font-bold">Kushaal.</span>
             <span className="block mt-4">
-              I'm a Commercial Mortgage expert with a
+              I'm a Commercial Mortgage Broker with a
               <span className="font-semibold">
                 {" "}
                 degree in Mathematics from UC Berkeley and
@@ -35,40 +35,32 @@ function App() {
               real-world
               <span className="font-semibold">
                 {" "}
-                CRE investment experience,
+                CRE investment experience.
               </span>{" "}
-              giving me the analytical edge to structure smarter, more efficient
-              financing solutions.
             </span>
             <span className="block mt-4"></span>I specialize in bringing the
-            best financing options to the table. Through my partnerships with
-            <span className="font-bold"> 100s of lenders</span>, I negotiate and
-            create tailored solutions that align with your investment goals.
+            best financing options to the table. I negotiate with lenders to
+            create smarter, more efficient financing solutions that align with
+            your investment goals.
           </p>
         </div>
 
         <div className="border-t border-gray-300 my-6"></div>
 
         <p className="text-gray-600 leading-relaxed text-lg text-justify">
-          <span className="font-bold text-gray-900">CommLoan</span> is the
-          <span className="font-bold text-green-700">
-            {" "}
-            only lender-neutral platform
-          </span>{" "}
-          where
+          <span className="font-bold text-gray-900">CommLoan</span> is the only
+          CRE debt marketplace where
           <span className="font-bold text-gray-900">
             {" "}
-            750+ lenders compete{" "}
+            750+ lenders <span className="italic">compete </span>
           </span>
-          for your deal. We leverage{" "}
+          <span className="font-bold text-green-700">for your deal.</span> We
+          leverage{" "}
           <span className="font-bold text-gray-900">
             real-time lender data{" "}
           </span>
-          to efficiently secure{" "}
-          <span className="font-bold text-green-700">
-            the best rates & best terms for your deal
-          </span>
-          .
+          to efficiently secure the best rates & terms{" "}
+          <span className="font-bold text-green-700">for your deal</span>.
         </p>
 
         {/* CTA Button */}
