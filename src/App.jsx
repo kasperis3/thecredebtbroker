@@ -124,6 +124,9 @@ function App() {
 
       {/* FOOTER */}
       <footer className="bg-darkBlue text-white text-center py-6 mt-16">
+        <p className="mt-2 text-sm text-gray-700">
+          NMLS -1597276 | Licensing - Arizona: 0943012; California: 02048126
+        </p>
         <p className="text-sm text-gray-700">
           © 2025 The CRE Debt Broker. All Rights Reserved.
         </p>
