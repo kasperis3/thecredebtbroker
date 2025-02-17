@@ -1,5 +1,6 @@
 import commloan_logo_MAIN from "./assets/commloan_logo_MAIN.png";
 import WP1 from "./assets/WP1.png";
+import two from "./assets/two.png";
 import "@fillout/react/style.css";
 import { FilloutPopupEmbedButton } from "@fillout/react";
 
@@ -61,7 +62,7 @@ function App() {
       {/* BIO SECTION */}
       <section className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 mt-16 p-6">
         <img
-          src="https://placehold.co/500x500"
+          src={two}
           alt="Kushaal Malde"
           className="w-full md:w-1/2 rounded-lg shadow-lg"
         />
