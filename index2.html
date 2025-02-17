@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cred Debt Broker | Unparalleled CRE Financing Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            margin: 0;
+            background: #F7F8FA;
+            color: #333333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('https://placehold.co/1920x1080'); /* Use NYC skyline */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 48px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 15px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        header a.cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            background: #BFA181;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        header a.cta-button:hover {
+            background: #A5886F;
+        }
+
+        .stats-section {
+            background: #1A1A1A;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .stats-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .stat-item h3 {
+            font-size: 36px;
+            margin: 0;
+            color: #BFA181;
+        }
+
+        .stat-item p {
+            font-size: 14px;
+            margin-top: 8px;
+            text-transform: uppercase;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .bio-section,
+        .contact-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .bio-section .bio-image img,
+        .contact-section .contact-form img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .bio-card {
+            flex: 1 1 50%;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .bio-card h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 28px;
+        }
+
+        .bio-card p,
+        .bio-card ul {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .bio-card ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        .bio-card ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .bio-card ul li::before {
+            content: "✓";
+            position: absolute;
+            color: #BFA181;
+            left: 0;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-family: "Playfair Display", serif;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .contact-form {
+            flex: 1 1 50%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .contact-form h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .contact-form form {
+            margin-top: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background: #BFA181;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background: #A5886F;
+        }
+
+        footer {
+            background: #1A1A1A;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .stats-wrapper {
+                flex-direction: column;
+            }
+
+            .bio-section,
+            .contact-section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Unlocking Unparalleled CRE Financing Solutions</h1>
+        <p>Delivering intelligent financial solutions for commercial real estate investors. $1MM–$200MM transactions secured through trusted lender partnerships.</p>
+        <a href="#contact" class="cta-button">Schedule a Consultation</a>
+    </header>
+
+    <div class="stats-section">
+        <div class="stats-wrapper">
+            <div class="stat-item">
+                <h3>$2.5B+</h3>
+                <p>Closed Transactions</p>
+            </div>
+            <div class="stat-item">
+                <h3>750+</h3>
+                <p>Trusted Lender Network</p>
+            </div>
+            <div class="stat-item">
+                <h3>97%</h3>
+                <p>Success Close Rate</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="bio-section">
+            <div class="bio-image">
+                <img src="https://placehold.co/500x500" alt="Professional Kushaal">
+            </div>
+            <div class="bio-card">
+                <h3>Kushaal | Commercial Mortgage Broker</h3>
+                <p>I leverage my degree in Mathematics from UC Berkeley and hands-on commercial real estate investment experience to deliver data-driven, innovative financing strategies tailored to meet unique investment goals.</p>
+                <ul>
+                    <li>Access to 750+ CRE lenders via CommLoan</li>
+                    <li>Streamlined financing for transactions of $1MM–$200MM+</li>
+                    <li>Tailored solutions across property types including Multifamily, Office, and Industrial</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-section">
+                <div class="contact-form">
+                    <h3>Get in Touch</h3>
+                    <form id="contact">
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <input type="text" name="phone" placeholder="Your Phone Number" />
+                        <textarea name="message" rows="5" placeholder="Tell us about your project (optional)"></textarea>
+                        <button type="submit">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 The Cred Debt Broker. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
