@@ -1,8 +1,7 @@
 import commloan_logo_MAIN from "./assets/commloan_logo_MAIN.png";
 import WP1 from "./assets/WP1.png";
 import two from "./assets/two.png";
-import headshot from "./assets/headshot.png";
-import DSC_1144 from "./assets/DSC_1144.jpg";
+import head from "./assets/head.png";
 import "@fillout/react/style.css";
 import { FilloutPopupEmbedButton } from "@fillout/react";
 
@@ -64,7 +63,7 @@ function App() {
       {/* BIO SECTION */}
       <section className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 mt-16 p-6">
         <img
-          src={headshot}
+          src={head}
           alt="Kushaal Malde"
           className="w-full md:w-1/2 rounded-lg shadow-lg"
         />
